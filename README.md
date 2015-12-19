@@ -13,7 +13,7 @@ Los requisitos eran crear dos llamadas HTTP (POST y GET)
   <li>MySQL 5</li>
   <li>Java 8</li>
   <li>IDE Spring Tool Suite</li>
-  <li>WizzTools.org REST Client 3.5</li>
+  <li>WizzTools.org REST Client 3.5 <small>(Para realizar las pruebas)</small></li>
 </ul>
 
 <h3>Despliege</h3>
@@ -27,7 +27,7 @@ En el fichero <b>application.properties</b> se encuentra la configuración de la
     <li><b>Ruta</b>: <i>/invoice</i></li>
     <li><b>Método</b>: <i>POST</i></li>
     <li>
-        <b>Parametros</b>:<i>JSON</li><br/>
+        <b>Parametros</b>: <i>JSON</i></li><br/>
         <code>
             {
                 "idCustomer": 1,
@@ -44,5 +44,5 @@ En el fichero <b>application.properties</b> se encuentra la configuración de la
 <ul>
     <li><b>Ruta</b>: <i>/invoices</i></li>
     <li><b>Método</b>: <i>GET</i></li>
-    <li><b>Parametros</b>: <i>customerId</li><br/></li>
+    <li><b>Parametros</b>: <i>customerId</i></li><br/></li>
 </ul>
