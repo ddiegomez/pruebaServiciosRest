@@ -33,8 +33,8 @@ En el fichero <b>application.properties</b> se encuentra la configuración de la
                 "idCustomer": 1,
                 "products": 
                     [
-                        {"idProduct: 1, "quantity": 2},
-                        {"idProduct: 2, "quantity": 10}
+                        {"idProduct": 1, "quantity": 2},
+                        {"idProduct": 2, "quantity": 10}
                     ]
             }
         </code>
