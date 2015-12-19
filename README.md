@@ -1,8 +1,8 @@
 # Ejemplo de servicios REST con Spring 4
 Los requisitos eran crear dos llamadas HTTP (POST y GET)
 <ul>
-  <li>Listado de facturas de un cliente</li>
-  <li>Insertar facturas</li>
+  <li>Listado de facturas de un cliente.</li>
+  <li>Insertar facturas.</li>
 </ul>
 
 <h3>Tecnologías y framework usados</h3>
@@ -19,6 +19,7 @@ Los requisitos eran crear dos llamadas HTTP (POST y GET)
 <h3>Despliege</h3>
 Dentro del proyecto se encuentra el fichero <b>create-tables.sql</b> con el script de creación de las tablas.<br/>
 En el fichero <b>application.properties</b> se encuentra la configuración de la conexión con la BBDD.<br/>
+El fichero <b>ERR.pdf</b> contiene el modelo Entidar-Relación para ayudar en la comprension del modelado.
 
 <h3>Funcionamiento</h3>
 
